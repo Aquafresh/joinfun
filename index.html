@@ -4,9 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="discription" content="Описание сайта">
 	<meta name="keywords" content="Ключенивые слова">
-	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="less/main.css">
 
-	<title>Тестовая страница</title>
+	<title>JustFun</title>
 </head>
 <body>
 	<header class="main-header">
@@ -32,7 +34,7 @@
 						<a class="social-list__btn social-list__item_icon-rss" href="#"></a>
 					</li>
 				</ul>
-				<p class="logo">Join<span>fun</span></p>
+				<p class="logo">Join<span>Fun</span></p>
 				<div class="sign-in">Sign in</div>
 			</div>
 			<!-- end headline -->
@@ -46,35 +48,35 @@
 
 			<!-- begin main-carousel  -->
 			<div class="main-carousel">
-				<div class="carousel-content main-carousel__carousel-content">
+				<div class="main-carousel__item">
 					<img src="#" alt="Not found">
 					<div class="carousel-content__text">
 						This text awesome!
 						<a class="btn btn__big" href="#"></a>
 					</div>
 				</div>
-				<div class="carousel-content main-carousel__carousel-content">
+				<div class="main-carousel__item">
 					<img src="#" alt="Not found">
 					<div class="carousel-content__text">
 						This text awesome!
 						<a class="btn btn__big" href="#"></a>
 					</div>
 				</div>
-				<div class="carousel-content main-carousel__carousel-content">
+				<div class="main-carousel__item">
 					<img src="#" alt="Not found">
 					<div class="carousel-content__text">
 						This text awesome!
 						<a class="btn btn__big" href="#"></a>
 					</div>
 				</div>
-				<div class="carousel-content main-carousel__carousel-content">
+				<div class="main-carousel__item">
 					<img src="#" alt="Not found">
 					<div class="carousel-content__text">
 						This text awesome!
 						<a class="btn btn__big" href="#"></a>
 					</div>
 				</div>
-				<div class="carousel-content main-carousel__carousel-content">
+				<div class="main-carousel__item">
 					<img src="#" alt="Not found">
 					<div class="carousel-content__text">
 						This text awesome!
@@ -89,7 +91,7 @@
 				<div class="container">
 
 					<!-- begin left-sidebar-column  -->
-					<div class="left-sidebar-column">
+					<div class="left-column wrapper__left-column">
 
 						<nav class="menu left-sidebar-column__menu">
 							<h2 class="menu__header">Menu</h2>
@@ -98,13 +100,13 @@
 									<a class="menu__title menu__title--news" href="#">News</a>
 									<ul class="sub-menu menu__sub_menu">
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">World</a>
 										</li>
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Regional</a>
 										</li>
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Politics</a>
 										</li>
 									</ul>
 								</li>
@@ -112,13 +114,22 @@
 									<a class="menu__title menu__title--article" href="#">Article</a>
 									<ul class="sub_menu">
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Scientific</a>
 										</li>
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Education</a>
 										</li>
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Medicine</a>
+										</li>
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#">Psychology</a>
+										</li>
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#">Technology</a>
+										</li>
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#">Language</a>
 										</li>
 									</ul>
 								</li>
@@ -126,19 +137,25 @@
 									<a class="menu__title menu__title--images" href="#">Images</a>
 									<ul class="sub_menu">
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Photo</a>
 										</li>
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Street art</a>
 										</li>
 										<li class="sub-menu__item">
-											<a class="sub-menu__title" href="#"></a>
+											<a class="sub-menu__title" href="#">Wallpaper</a>
+										</li>
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#">Art project</a>
 										</li>
 									</ul>
 								</li>
 								<li class="menu__item">
 									<a class="menu__title menu__title--films" href="#">Films</a>
 									<ul class="sub_menu">
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#">Movies</a>
+										</li>
 										<li class="sub-menu__item">
 											<a class="sub-menu__title" href="#"></a>
 										</li>
@@ -178,15 +195,136 @@
 										</li>
 									</ul>
 								</li>
+								<li class="menu__item">
+									<a class="menu__title menu__title--music" href="#">Music</a>
+									<ul class="sub_menu">
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#"></a>
+										</li>
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#"></a>
+										</li>
+										<li class="sub-menu__item">
+											<a class="sub-menu__title" href="#"></a>
+										</li>
+									</ul>
+								</li>
 							</ul>
 						</nav>
 
 					</div>
 					<!-- end left-sidebar-column -->
 
-					<div class="content-column"></div>
+					<!-- begin content-column  -->
+					<div class="center-column wrapper__center-column">
 
-					<div class="right-sidebar-column"></div>
+						<article class="post">
+							<h3 class="post__header">Lorem ipsum dolor sit amet, consectetur eos.</h3>
+							<img src="#" alt="Not found">
+							<div class="post-info post__post-info">
+								<span class="post-info__data">23 sep</span>
+								<a class="post-info_comments" href="#">51 comments</a>
+								<span class="post-info__views">30 views</span>
+							</div>
+						</article>
+
+						<article class="post">
+							<h3 class="post__header">Lorem ipsum dolor sit amet, consectetur eos.</h3>
+							<img src="#" alt="Not found">
+							<div class="post-info post__post-info">
+								<span class="post-info__data">23 sep</span>
+								<a class="post-info_comments" href="#">51 comments</a>
+								<span class="post-info__views">30 views</span>
+							</div>
+						</article>
+
+						<article class="post">
+							<h3 class="post__header">Lorem ipsum dolor sit amet, consectetur eos.</h3>
+							<img src="#" alt="Not found">
+							<div class="post-info post__post-info">
+								<span class="post-info__data">23 sep</span>
+								<a class="post-info_comments" href="#">51 comments</a>
+								<span class="post-info__views">30 views</span>
+							</div>
+						</article>
+
+						<article class="post">
+							<h3 class="post__header">Lorem ipsum dolor sit amet, consectetur eos.</h3>
+							<img src="#" alt="Not found">
+							<div class="post-info post__post-info">
+								<span class="post-info__data">23 sep</span>
+								<a class="post-info_comments" href="#">51 comments</a>
+								<span class="post-info__views">30 views</span>
+							</div>
+						</article>
+
+						<article class="post">
+							<h3 class="post__header">Lorem ipsum dolor sit amet, consectetur eos.</h3>
+							<img src="#" alt="Not found">
+							<div class="post-info post__post-info">
+								<span class="post-info__data">23 sep</span>
+								<a class="post-info_comments" href="#">51 comments</a>
+								<span class="post-info__views">30 views</span>
+							</div>
+						</article>
+
+					</div>
+					<!-- end content-column  -->
+
+					<!-- begin right-sidebar-column  -->
+					<div class="right--column wrapper__right-column">
+
+						<div class="sidebar-block">
+							<h3 class="sidebar-block__title">Search:</h3>
+							<form class="form sidebar-block__form" action="#" method="get">
+								<input class="form__search-field" type="search" name="search-field">
+								<button class="button form__search-submit" type="submit" name="search-submit"></button>
+							</form>
+						</div>
+
+						<div class="sidebar-block">
+							<h3 class="sidebar-block__title">Popular tags:</h3>
+							<div class="tags sidebar-block__tags">
+								<span class="tags__item">Art</span>
+								<span class="tags__item">Films</span>
+								<span class="tags__item">Summer</span>
+								<span class="tags__item">History</span>
+								<span class="tags__item">Foot</span>
+								<span class="tags__item">Witcher 3</span>
+								<span class="tags__item">Coub</span>
+								<span class="tags__item">WoW</span>
+								<span class="tags__item">USA government</span>
+								<span class="tags__item">Hand made</span>
+								<span class="tags__item">Football</span>
+								<span class="tags__item">Music</span>
+							</div>
+						</div>
+
+						<div class="sidebar-block">
+							<h3 class="sidebar-block__title">What to add to our website?</h3>
+							<form class="form sidebar-block__form">
+
+								<input class="form__radio-btn" type="radio" name="radio" id="article">
+								<label class="form__radio-title" id="radio">More intresting article</label>
+
+								<input class="form__radio-btn" type="radio" name="radio" id="video">
+								<label class="form__radio-title" id="radio">More intresting video</label>
+
+								<input class="form__radio-btn" type="radio" name="radio" id="wallpaper">
+								<label class="form__radio-title" id="radio">Wallpaper compilation</label>
+
+								<input class="form__radio-btn" type="radio" name="radio" id="news">
+								<label class="form__radio-title" id="radio">Day news compilation</label>
+
+								<input class="form__radio-btn" type="radio" name="radio" id="all">
+								<label class="form__radio-title" id="radio">all of the above</label>
+
+								<button class="button form__radio-submit" type="submit" name="search-submit"></button>
+							</form>
+						</div>
+
+					</div>
+					<!-- end left-sidebar-column  -->
 
 				</div>
 			</div>
