@@ -25,7 +25,7 @@
 						<a class="social-list__btn social-list__item_icon-gplus" href="#"></a>
 					</li>
 					<li class="social-list__item">
-						<a class="social-list__btn social-list__item_icon-facebook" href="#"></a>
+						<a class="social-list__btn social-list__item_icon-facebook-1" href="#"></a>
 					</li>
 					<li class="social-list__item">
 						<a class="social-list__btn social-list__item_icon-vk" href="#"></a>
@@ -34,8 +34,8 @@
 						<a class="social-list__btn social-list__item_icon-rss" href="#"></a>
 					</li>
 				</ul>
-				<p class="logo">Join<span>Fun</span></p>
-				<div class="sign-in">Sign in</div>
+				<p class="logo headline__logo">Join<span>Fun!</span></p>
+				<a class="sign-in headline__sign-in" href="#">Sign in</a>
 			</div>
 			<!-- end headline -->
 		</div>
@@ -48,39 +48,34 @@
 
 			<!-- begin main-carousel  -->
 			<div class="main-carousel">
-				<div class="main-carousel__item">
-					<img src="#" alt="Not found">
-					<div class="carousel-content__text">
-						This text awesome!
-						<a class="btn btn__big" href="#"></a>
+				<div class="main-carousel__item main-carousel__item-slide1">
+					<div class="main-carousel__text">
+						World news, day result.
+						<a class="btn btn__big" href="#">Read more...</a>
 					</div>
 				</div>
-				<div class="main-carousel__item">
-					<img src="#" alt="Not found">
-					<div class="carousel-content__text">
-						This text awesome!
-						<a class="btn btn__big" href="#"></a>
+				<div class="main-carousel__item main-carousel__item-slide2">
+					<div class="main-carousel__text">
+						Immersion on Marvel comics universe.
+						<a class="btn btn__big" href="#">Read more...</a>
 					</div>
 				</div>
-				<div class="main-carousel__item">
-					<img src="#" alt="Not found">
-					<div class="carousel-content__text">
-						This text awesome!
-						<a class="btn btn__big" href="#"></a>
+				<div class="main-carousel__item main-carousel__item-slide3">
+					<div class="main-carousel__text">
+						Old rock'n roll compilation!
+						<a class="btn btn__big" href="#">Read more...</a>
 					</div>
 				</div>
-				<div class="main-carousel__item">
-					<img src="#" alt="Not found">
-					<div class="carousel-content__text">
-						This text awesome!
-						<a class="btn btn__big" href="#"></a>
+				<div class="main-carousel__item main-carousel__item-slide4">
+					<div class="main-carousel__text">
+						Top 10 awesome place!
+						<a class="btn btn__big" href="#">Read more...</a>
 					</div>
 				</div>
-				<div class="main-carousel__item">
-					<img src="#" alt="Not found">
-					<div class="carousel-content__text">
-						This text awesome!
-						<a class="btn btn__big" href="#"></a>
+				<div class="main-carousel__item main-carousel__item-slide5">
+					<div class="main-carousel__text">
+						New information about windows 10!
+						<a class="btn btn__big" href="#">Read more...</a>
 					</div>
 				</div>
 			</div>
@@ -340,5 +335,15 @@
 
 		</div>
 	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/less.js"></script>
+	<script>
+
+	$(document).ready(function(){
+ 	$(".main-carousel").owlCarousel();
+	});
+
+	</script>
 </body>
 </html>

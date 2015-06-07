@@ -1,0 +1,119 @@
+.headline {
+
+	width: 90%;
+	background-image:
+		linear-gradient(to right,#D87D06 20%,#D84C06 80%);
+	min-height: 50px;
+	display:flex;
+	flex-diraction: row;
+	justify-content: space-between;
+	line-height: 50px;
+	padding: 0 5%;
+
+	& .social-list {
+
+		&__item {
+
+			display: inline-block;
+			vertical-align: middle;
+
+			&_icon-twitter:hover {
+
+				background-color: #23B9EB;
+			}
+
+			&_icon-gplus:hover {
+
+				background-color: #DD4B39;
+			}
+
+			&_icon-facebook-1:hover {
+
+				background-color: #45639E;
+			}
+
+			&_icon-vk:hover {
+
+				background-color: #51749C;
+			}
+
+			&_icon-rss:hover {
+
+				background-color: #F5A630;
+			}
+		}
+
+		&__btn {
+
+			margin-right: 20px;
+			font-size: 20px;
+			color: #fff;
+			border: 1px solid #000;
+			border-radius: 3px;
+			display: block;
+			height: 30px;
+			line-height: 30px;
+			width: 30px;
+			text-align: center;
+			box-shadow: 0 0 3px 1px #000;
+
+			&:active {
+
+				box-shadow:inset 0 0 3px 1px #000;
+			}
+		}
+
+
+	}
+
+	& .logo {
+
+		text-transform: uppercase;
+		font-size: 30px;
+		font-weight: bold;
+		color: #642302;
+
+		>span {
+
+			font-size: @fz_ltl;
+			font-weight: bold;
+		}
+	}
+
+	& .sign-in {
+
+		border: 2px solid #000;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		margin-top: 7px;
+		padding: 3px 20px 0 40px;
+		border-radius: 3px;
+		box-shadow: 0 0 3px 1px #000;
+		color: #fff;
+		text-transform: uppercase;
+		position: relative;
+		display: block;
+
+		&:before {
+
+			content: '\e818';
+			display: block;
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			font-family: "symbols-justfun";
+			left: 5px;
+		}
+
+		&:hover {
+
+			color: rgba(255, 255, 255, 0.8)
+		}
+
+		&:active {
+
+			box-shadow:inset 0 0 3px 1px #000;
+		}
+	}
+}
