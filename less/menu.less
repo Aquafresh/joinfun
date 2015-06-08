@@ -1,0 +1,128 @@
+.menu {
+
+	background-image:
+		linear-gradient(to right top,#29569F 20%,#3F299F 80%);
+
+	.menu__title {
+
+		border-bottom: 2px solid #CCC;
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #d9d9d9;
+		padding-left: 30px;
+		position: relative;
+		cursor: pointer;
+
+		&:hover {
+
+			color: #fff;
+		}
+
+		&--article:after {
+
+			content: '\e811';
+			display: block;
+			font-family: @ff-icon;
+			position: absolute;
+			top: 8px;
+			right: 15px;
+			font-size: 24px;
+		}
+
+		&--images:after {
+
+			content: '\e812';
+			display: block;
+			font-family: @ff-icon;
+			position: absolute;
+			top: 8px;
+			right: 15px;
+			font-size: 24px;
+		}
+
+		&--films:after {
+
+			content: '\e806';
+			display: block;
+			font-family: @ff-icon;
+			position: absolute;
+			top: 8px;
+			right: 15px;
+			font-size: 24px;
+		}
+
+		&--video:after {
+
+			content: '\e80c';
+			display: block;
+			font-family: @ff-icon;
+			position: absolute;
+			top: 8px;
+			right: 15px;
+			font-size: 24px;
+		}
+
+		&--games:after {
+
+			content: '\e810';
+			display: block;
+			font-family: @ff-icon;
+			position: absolute;
+			top: 8px;
+			right: 15px;
+			font-size: 24px;
+		}
+
+		&--music:after {
+
+			content: '\e805';
+			display: block;
+			font-family: @ff-icon;
+			position: absolute;
+			top: 8px;
+			right: 15px;
+			font-size: 24px;
+		}
+	}
+}
+
+ .sub-menu {
+
+ 	background: #444359;
+ 	font-size: 14px;
+ }
+
+ .sub-menu__item {
+
+ 	border-bottom: 1px solid #4b4a5e;
+
+	.sub-menu__title {
+ 		display: block;
+ 		text-decoration: none;
+ 		color: #d9d9d9;
+ 		padding: 12px;
+ 		padding-left: 42px;
+ 		-webkit-transition: all 0.25s ease;
+ 		-o-transition: all 0.25s ease;
+ 		transition: all 0.25s ease;
+
+ 		&:hover {
+
+ 			background: #b63b4d;
+ 			color: #FFF;
+ 		}
+	}
+}
+
+.menu__sub-menu {
+
+	display: none;
+}
+
+.cf:after {
+
+	content: '';
+	display: block;
+	width: 100%;
+}
